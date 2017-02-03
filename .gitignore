@@ -1,0 +1,22 @@
+# CSS Files
+css/*
+
+# Editors
+.buildpath
+.jscsrc
+.project
+.settings
+
+# JavaScript File
+js/theme.min.js
+js/theme.min.js.map
+js/wp-admin.min.js
+js/wp-admin.min.js.map
+
+# Mac OS X
+.DS_Store
+
+# NPM
+.sass-cache
+node_modules/
+npm-debug.log

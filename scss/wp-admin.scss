@@ -1,0 +1,97 @@
+// scss-lint:disable ColorVariable, IdSelector, SelectorFormat
+
+// ------------------------------
+// Hidden Menus
+// ------------------------------
+#wp-admin-bar-comments,
+#menu-comments {
+  display: none;
+}
+
+// ------------------------------
+// Meta Boxes
+// ------------------------------
+.table__meta-box {
+  width: 100%;
+  word-break: break-all;
+  word-wrap: break-word;
+
+  th {
+    text-align: left;
+  }
+
+  td {
+    padding: 5px 10px;
+  }
+
+  label {
+    display: block;
+    font-size: .875rem;
+    line-height: 2em;
+  }
+
+  textarea {
+    width: 100%;
+  }
+
+  .upload {
+    height: 30px;
+    width: 30em;
+
+    @media (min-width:1101px) {
+      width: 40em;
+    }
+
+    @media (min-width:1251px) {
+      width: 50em;
+    }
+  }
+}
+
+// ------------------------------
+// Widgets
+// ------------------------------
+.widget {
+  .title {
+    border-bottom: 1px solid #ddd;
+    font-size: 1em;
+    margin-bottom: .5em;
+    padding-bottom: 10px;
+  }
+
+  label {
+    display: block;
+  }
+
+  .upload {
+    height: 30px;
+
+    @media (min-width:783px) {
+      width: 16em;
+    }
+
+    @media (min-width:830px) {
+      width: 20em;
+    }
+  }
+
+  select {
+    max-width: 100%;
+  }
+}
+
+
+// ------------------------------
+// Theme Settings
+// ------------------------------
+.theme-settings {
+  h1 {
+    margin-bottom: 20px;
+  }
+
+  h3 {
+    border-bottom: 1px solid #ccc;
+    margin-top: 2em;
+    padding-bottom: 5px;
+  }
+}

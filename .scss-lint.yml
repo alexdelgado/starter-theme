@@ -1,0 +1,32 @@
+linters:
+
+  BorderZero:
+    enabled: true
+    convention: none # or `zero`
+
+  FinalNewline:
+    enabled: false # don't require trailing new line
+
+  Indentation:
+    enabled: true
+    allow_non_nested_indentation: false
+    character: space # or 'tab'
+    width: 4
+
+  NestingDepth:
+    enabled: true
+    max_depth: 4 # allow nesting up to 4 levels
+
+  QualifyingElement:
+    enabled: false # allow qualifying elements
+
+  SelectorDepth:
+    enabled: true
+    max_depth: 4 # allow up to 4 selectors
+
+  SelectorFormat:
+    enabled: true
+    convention: strict_BEM # or 'hyphenated_lowercase', or 'hyphenated_BEM', or 'snake_case', or 'camel_case', or a regex pattern
+
+  VendorPrefix:
+    enabled: false # allow use of vendor prefixes
